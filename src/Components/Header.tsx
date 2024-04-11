@@ -23,7 +23,7 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
                 <span className="text-sm flex font-bold" >SAR</span>
             </div>
         </div>
-        <div className="max-w-7xl mx-auto pt-5 pb-4 flex justify-around items-center ">
+        <div className="max-w-7xl mx-auto pt-5  flex justify-around items-center fixed  left-0 right-0 ">
             <div className="flex items-center gap-8">
                 <button className="rounded-full border border-blue-700 bg-transparent px-4 py-2  text-white">Home</button>
                 <span className='text-sm flex '>Solution</span>

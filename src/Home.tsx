@@ -15,7 +15,7 @@ type HeaderProps = {
 const Home: React.FC<HeaderProps> = ({ title }) => {
 
   return (
-    <div className='text-white bg-gradient-to-b from-dark-blue to-light-blue '>
+    <div className='text-white bg-gradient-to-b from-dark-blue to-light-blue space-y-10 '>
         <Header title=''/>
         <main className="py-12 space-y-10 ">
             <div className="flex flex-col md:flex-row items-center justify-around space-y-8 md:space-y-0 md:space-x-12 ">
