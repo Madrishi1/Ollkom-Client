@@ -11,7 +11,7 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
   
   return (
     <div className="bg-dark-blue text-white py-2 ">
-        <div className="max-w-7xl mx-auto px-3 flex justify-between items-center border-b  pb-2">
+        <div className="max-w-5xl mx-auto px-3 flex justify-between items-center border-b  pb-2 ">
             <div className="flex items-center gap-4">
                 <span className="text-sm flex font-bold">About</span>
                 <span className='text-border-grey text-lg'>|</span>
@@ -23,8 +23,8 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
                 <span className="text-sm flex font-bold" >SAR</span>
             </div>
         </div>
-        <div className="max-w-7xl mx-auto pt-5  flex justify-around items-center fixed  left-0 right-0 ">
-            <div className="flex items-center gap-8">
+        <div className="max-w-7xl mx-auto p-5  flex justify-around items-center   ">
+            <div className="flex items-center gap-8 ">
                 <button className="rounded-full border border-blue-700 bg-transparent px-4 py-2  text-white">Home</button>
                 <span className='text-sm flex '>Solution</span>
                 <span className="text-sm flex " >Pricing</span>
