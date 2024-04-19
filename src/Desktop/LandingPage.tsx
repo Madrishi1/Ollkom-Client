@@ -59,14 +59,15 @@ const LandingPage: React.FC<LandingPageProps> = ({ title }) => {
                 There is many variations of pasages of lorem ipsum available <br/>
                 but the majority have suffered alternation in some form.
               </div>
-              <div className='grid grid-cols-3 gap-4 justify-items-center pb-16'>
-                <Card icon={<BeakerIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '}/>
-                <Card icon={<GlobeAltIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '}/>
-                <Card icon={<BookOpenIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '}/>
-                <Card icon={<CodeBracketIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '}/>
-                <Card icon={<BeakerIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '}/>
-                <Card icon={<BeakerIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '}/>
+              <div className='grid grid-cols-3 gap-4 justify-items-center pb-16 max-w-5xl mx-auto '>
+                <Card icon={<BeakerIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  ' } backGround={"#111928"}/>
+                <Card icon={<GlobeAltIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '}backGround={"#111928"}/>
+                <Card icon={<BookOpenIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '} backGround={"#111928"}/>
+                <Card icon={<CodeBracketIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom '} backGround={"#111928"}/>
+                <Card icon={<BeakerIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '} backGround={"#111928"}/>
+                <Card icon={<BeakerIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '} backGround={"#111928"}/>
               </div>
+
             </div>
             <div className="flex flex-col md:flex-row items-center justify-around space-y-8 md:space-y-0 md:space-x-12 ">
               
@@ -211,12 +212,12 @@ const LandingPage: React.FC<LandingPageProps> = ({ title }) => {
               </div>
 
               <div className='grid grid-cols-3 gap-4 justify-items-center pb-16 max-w-5xl mx-auto '>
-                <Card icon={<BeakerIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '}/>
-                <Card icon={<GlobeAltIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '}/>
-                <Card icon={<BookOpenIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '}/>
-                <Card icon={<CodeBracketIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '}/>
-                <Card icon={<BeakerIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '}/>
-                <Card icon={<BeakerIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '}/>
+                <Card icon={<BeakerIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  ' } backGround={"#111928"}/>
+                <Card icon={<GlobeAltIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '}backGround={"#111928"}/>
+                <Card icon={<BookOpenIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '} backGround={"#111928"}/>
+                <Card icon={<CodeBracketIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom '} backGround={"#111928"}/>
+                <Card icon={<BeakerIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '} backGround={"#111928"}/>
+                <Card icon={<BeakerIcon className="h-[50px] w-[50px] p-1 " />} heading={'Refreshing Design'} description={'We dejoy working with disignig for whom ,We dejoy working with disignig for whom disignig for whom ,We dejoy working with disignig for whom  '} backGround={"#111928"}/>
               </div>
               
             </div>

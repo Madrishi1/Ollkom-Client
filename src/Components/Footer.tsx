@@ -10,7 +10,7 @@ type FooterProps = {
 const Footer: React.FC<FooterProps> = ({ title }) => {
   
   return (
-    <div className=" text-white">
+  <div className=" text-white bg-dark-blue pb-10">
   <div className="container mx-auto px-4 py-6 flex gap-8 justify-around">
     <div className="space-y-2 w-1/5">
       <div className="flex items-center space-x-2">
@@ -139,6 +139,7 @@ const Footer: React.FC<FooterProps> = ({ title }) => {
       </div>
     </div> 
   </div>
+  
  
 </div>
   )

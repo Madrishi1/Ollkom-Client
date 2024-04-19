@@ -4,13 +4,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Home from './Home';
 import LandingPage from './Desktop/LandingPage';
+import Subscription from './Desktop/Subscription';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <LandingPage title='' />
+    <Subscription title={''}/>
     
   </React.StrictMode>
 );
